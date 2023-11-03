@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#rott,
+.app{
+  height: 100%;
+  width: 100%;
+  @apply text-sm;
+}
+
+.sign{
+  color: transparent;
+}
